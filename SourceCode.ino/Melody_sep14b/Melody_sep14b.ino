@@ -28,12 +28,13 @@ int durations[] = {
   500, 125,
   // Continue with the rest of the durations
 };
+int repetitions = 3; 
 
 void setup() {
   pinMode(buzzerPin, OUTPUT);
-}
 
-void loop() {
+
+for (int repeat = 0; repeat < repetitions; repeat++) {
   for (int i = 0; i < sizeof(melody) / sizeof(int); i++) {
     int noteDuration = durations[i] / songSpeed;
     if (melody[i] != 0) {
@@ -43,4 +44,13 @@ void loop() {
     }
     delay(noteDuration);
   }
+  }
+
 }
+
+void loop() {
+
+
+  }
+
+
