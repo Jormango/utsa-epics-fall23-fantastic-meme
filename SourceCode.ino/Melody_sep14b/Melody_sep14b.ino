@@ -1,7 +1,7 @@
 // Define pin, speed, and # of repetitions
 const int buzzerPin = 8; 
 const float songSpeed = 0.85;
-int repetitions = 3; 
+int repetitions = 2; 
 
 // Define note frequencies
 #define NOTE_B4 493
