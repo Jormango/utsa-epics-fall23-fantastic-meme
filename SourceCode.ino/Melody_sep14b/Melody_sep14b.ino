@@ -25,16 +25,6 @@ int durations[] = {
  
 };
 
-// Defines the melody using an array
-int melody[] = {
-0, NOTE_G4, NOTE_A4, NOTE_B4, 0, NOTE_B4, NOTE_G4, NOTE_A4, 0, NOTE_B4, NOTE_A4, NOTE_G4, 0, NOTE_B4, NOTE_D5, NOTE_E5
-};
-
-// Define the durations for each note in ms, must match with melody array 1:1
-int durations[] = {
-500, 500, 1000, 500, 500, 1000, 500, 500, 1000, 500, 500, 1000
-}
-
 
 void setup() {
   pinMode(buzzerPin, OUTPUT);
