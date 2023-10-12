@@ -1,6 +1,6 @@
 // Define pin, speed, and # of repetitions
 const int buzzerPin = 8; 
-const float songSpeed = 0.85;
+const float songSpeed = 1.0;
 int repetitions = 1; 
 
 // Define note frequencies
@@ -8,7 +8,6 @@ int repetitions = 1;
 #define NOTE_A4 440
 #define NOTE_E5 659
 #define NOTE_A5 466
-#define NOTE_G5 415
 #define NOTE_G4 390
 #define NOTE_E4 330
 #define NOTE_D4 294
@@ -26,7 +25,7 @@ int melody[] = {
 int durations[] = {
 500,250,250,250,750,500,250,250,250,750,500,250,250,250,500,250,250,250,250,250,750,
 500,250,250,250,750,250,250,250,250,1000,250,250,250,250,250,750,250,250,250,250,500,500,
-500, 250, 250 , 1000, 500,250,250, 1000, 500, 250, 250, 1000, 500, 250,250, 1000,
+500,250,250,1000,500,250,250,1000,500,250,250,1000,500,250,250,1000,
 500,250,250,250,750,500,250,250,250,750,500,250,250,1000,500,250,250,1000,1000
 
 };
