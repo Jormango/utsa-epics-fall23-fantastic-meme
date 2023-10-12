@@ -7,7 +7,6 @@ int repetitions = 1;
 #define NOTE_B4 493
 #define NOTE_A4 440
 #define NOTE_E5 659
-#define NOTE_A5 466
 #define NOTE_G4 390
 #define NOTE_E4 330
 #define NOTE_D4 294
